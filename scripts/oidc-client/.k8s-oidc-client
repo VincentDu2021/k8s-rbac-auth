@@ -1,0 +1,8 @@
+# Example client file for k8s oidc, create this file manually or use 'setup' option to generate.
+# Please treat this file as your private key (400) # as it contains sensitive login information
+
+KC_USERNAME=test-user
+KC_PASSWORD=test-password
+OIDC_ISSUER_URL=https://sso.bar1.devcloud.habana.ai/auth/realms/midjourney-test
+OIDC_KC_CLIENT_ID=kubernetes
+OIDC_KC_CLIENT_SC=GUID_REDUCTED
